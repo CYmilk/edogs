@@ -1,0 +1,304 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,i,b{
+	margin: 0;
+	padding: 0;
+	font: 12px 'Microsoft Yahei',Tahoma,Simsun;
+}
+body{
+	min-width: 1200px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+ul,ul li{
+	list-style: none;
+}
+img{
+	border: none;
+	display: block;
+}
+#wrap-header{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+#header{
+	width: 1100px;
+	padding: 30px 0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#header .logo-pet{
+	float: left;
+	overflow: hidden;
+}
+#header .Loginlink{
+	margin-right: 24px;
+	margin-top: 13px;
+	float: right;
+	overflow: hidden;
+}
+#header .Loginlink a{
+	padding: 0 5px;
+	display: inline-block;
+	color: #444;
+	font-size: 14px;
+}
+
+
+/*登录*/
+#wrap-login{
+	width: 100%;
+	height: 628px;
+	background: url(../img/logbg4.jpg) no-repeat center;
+}
+#login-box{
+	width: 1100px;
+	height: 628px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.Logindiv70{
+  width: 340px;
+  padding: 0 36px 30px;
+  background: #fff;
+  top: 70px;
+  right: 5px;
+  position: absolute;
+  overflow: hidden;
+}
+.Logindiv70 .logintab{
+	overflow: hidden;
+}
+.Logindiv70 .logintab span{
+	height: 67px;
+  	line-height: 80px;
+  	width: 50%;
+  	border-bottom: #ddd solid 1px;
+  	color: #999;
+  	float: left;
+  	text-align: center;
+  	font-size: 14px;
+  	cursor: pointer;
+}
+.Logindiv70 .logintab span.normal-login{
+	color: #000;
+	border-bottom: 1px solid #33cb98;
+}
+.input-box{
+	overflow: hidden;
+}
+#login_0{
+	overflow: hidden;
+}
+.loginUser{
+	border: #ddd solid 1px;
+  	height: 45px;
+  	line-height: 45px;
+  	margin: 20px 0 0 0;
+	padding: 0 0 0 15px;
+	overflow: hidden;
+}
+#login_0 .loginUser .userico{
+	width: 23px;
+  	height: 19px;
+  	background:url(../img/ico.png) no-repeat 0 0;
+  	vertical-align: middle;
+  	display: inline-block;
+}
+#login_0 .loginUser .Userinput{
+	height: 45px;
+  	line-height: 45px;
+  	width: 296px;
+  	border: none;
+  	text-indent: 2px;
+  	color: #999;
+  	font-size: 14px;
+}
+#login_0 .loginUser .pwdico{
+	width: 23px;
+  	height: 19px;
+	background:url(../img/ico.png) no-repeat 0 -28px;
+	vertical-align: middle;
+  	display: inline-block;
+}
+#login_1{
+	overflow: hidden;
+}
+#login_1 .loginUser .userico{
+	width: 23px;
+  	height: 19px;
+  	background:url(../img/login_ico.png) no-repeat 0 -37px;
+  	vertical-align: middle;
+  	display: inline-block;
+}
+#login_1 .loginUser .Userinput{
+	height: 45px;
+  	line-height: 45px;
+  	width: 296px;
+  	border: none;
+  	text-indent: 2px;
+  	color: #999;
+  	font-size: 14px;
+}
+#login_1 .varify{
+	width: 205px;
+	float: left;
+}
+#login_1 .varify .varifyico{
+	width: 23px;
+  	height: 19px;
+  	background:url(../img/login_ico.png) no-repeat 0 -68px;
+  	vertical-align: middle;
+  	display: inline-block;
+}
+#login_1 .varify .Userinput{
+	width: 150px;
+	height: 45px;
+  	line-height: 45px;
+  	border: none;
+  	text-indent: 2px;
+  	color: #999;
+  	font-size: 14px;
+}
+#login_1 .varifyimg{
+  	margin-top: 20px;
+ 	width: 100px;
+  	padding: 0px;
+  	float: right;
+}
+#login_1 .varifyimg img{
+	cursor: pointer;
+	vertical-align: middle;
+}
+#login_1 .varify .codeico{
+	width: 23px;
+  	height: 19px;
+  	background:url(../img/login_ico.png) no-repeat 0 -11px;
+  	vertical-align: middle;
+  	display: inline-block;
+}
+#login_1 .phonecodebtn{
+  	padding: 0px;
+  	width: 100px;
+  	float: right;
+  	cursor: pointer;
+  	text-align: center;
+	border-radius: 5px;
+  	border: 1px solid #33cb98;
+  	height: 45px;
+  	line-height: 45px;
+  	margin: 20px 0 0 0;
+  	overflow: hidden;
+}
+#login_1 .phonecodebtn span{
+	text-align: center;
+	cursor: pointer;
+}
+#login_1 .phonecodebtn:hover{
+	color: #fff;
+	background-color: #33cb98;
+}
+/*自动登录*/
+.Logindiv70 .login-zidong{
+	margin-top: 20px;
+	overflow: hidden;
+}
+.Logindiv70 .login-zidong input{
+	vertical-align: middle;
+}
+.Logindiv70 .login-zidong span{
+	color: #666;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.Logindiv70 .login-zidong a{
+	display: block;
+	float: right;
+	color: #666;
+	font-size: 14px;
+}
+.Logindiv70 .login-zidong a:hover{
+	color: blue;
+}
+.Logindiv70 .loginbtn{
+  	background: #33cb98;
+  	width: 100%;
+	height: 50px;
+  	line-height: 50px;
+  	border-radius: 5px;
+  	margin: 20px 0 15px;
+  	display: inline-block;
+  	color: #fff;
+  	text-align: center;
+  	font-size: 20px;
+}
+
+.Logindiv70 .hezuo{
+	overflow: hidden;
+}
+.Logindiv70 .hezuo .hezuo-left{
+	float: left;
+	overflow: hidden;
+}
+.Logindiv70 .hezuo .hezuo-left span{
+	color: #666;
+	font-size: 14px;
+}
+.Logindiv70 .hezuo .hezuo-left .Heuzouicolist{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.Logindiv70 .hezuo .hezuo-left .Heuzouicolist a{
+	margin-right: 10px;
+	width: 23px;
+	height: 19px;
+	vertical-align: middle;
+	display: inline-block;
+}
+.Heuzouicolist a.qq{
+	background: url(../img/ico.png) no-repeat 0 -86px;
+}
+.Heuzouicolist a.zhifubao{
+	background: url(../img/ico.png) no-repeat 0 -170px;
+}
+.Heuzouicolist a.weibo{
+	background: url(../img/ico.png) no-repeat 0 -116px;
+}
+.Heuzouicolist a.weixin{
+	background: url(../img/ico.png) no-repeat 0 -144px;
+}
+.Logindiv70 .hezuo .login-keep{
+	float: right;
+	color: #666;
+	font-size: 14px;
+}
+.Logindiv70 .hezuo .login-keep:hover{
+	color: blue;
+}
+
+/*页脚*/
+#wrap-footer{
+	width: 100%;
+	overflow: hidden;
+}
+#footer{
+	width: 1100px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	padding: 70px 0;
+}
+#footer a{
+	color: #999;
+	text-align: center;
+}
+#footer a:hover{
+	color: blue;
+}
+#footer p{
+	margin-top: 5px;
+	text-align: center;
+	color: #999;
+}

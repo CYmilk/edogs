@@ -1,0 +1,74 @@
+[	
+	{
+		"shopimg" : "img/shop_1.jpg",
+		"shopname" : "美国原装进口天衡宝（原雪山）限定系列 鸭薯配方小型犬粮 4.5磅/2.04kg",
+		"ageprice" : "￥198.00",
+		"nowprice" : "165.00",
+		"idnumber" : "115033",
+		"selled" : "12569 袋"
+	},
+	{
+		"shopimg" : "img/product-pic-1.jpg",
+		"shopname" : "宝路 中小型犬成犬牛肉配方粮 1.8kg",
+		"ageprice" : "¥53.40",
+		"nowprice" : "44.50",
+		"idnumber" : "115889",
+		"selled" : "27510 袋"
+	},
+	{
+		"shopimg" : "img/shop_2.jpg",
+		"shopname" : "美国原装进口 百利本能Instinct 原野生肉无谷物鸭肉火鸡配方小型全犬粮 4.1磅(1.8kg)",
+		"ageprice" : "￥240.00",
+		"nowprice" : "200.00",
+		"idnumber" : "175213",
+		"selled" : "88 袋"
+	},
+	{
+		"shopimg" : "img/shop_3.jpg",
+		"shopname" : "新西兰原装进口 巅峰ZiwiPeak 鹿肉配方全犬粮 1kg",
+		"ageprice" : "￥403.20",
+		"nowprice" : "336.00",
+		"idnumber" : "133985",
+		"selled" : "861 袋"
+	},
+	{
+		"shopimg" : "img/shop_4.jpg",
+		"shopname" : "克劳德医生 小型成犬天然粮 鲜肉配方 2kg",
+		"ageprice" : "￥273.60",
+		"nowprice" : "228.00",
+		"idnumber" : "175105",
+		"selled" : "73 袋"
+	},
+	{
+		"shopimg" : "img/shop_1.jpg",
+		"shopname" : "美国原装进口天衡宝（原雪山）限定系列 鸭薯配方小型犬粮 4.5磅/2.04kg",
+		"ageprice" : "￥198.00",
+		"nowprice" : "165.00",
+		"idnumber" : "115033",
+		"selled" : "12569 袋"
+	},
+	{
+		"shopimg" : "img/shop_2.jpg",
+		"shopname" : "美国原装进口 百利本能Instinct 原野生肉无谷物鸭肉火鸡配方小型全犬粮 4.1磅(1.8kg)",
+		"ageprice" : "￥240.00",
+		"nowprice" : "200.00",
+		"idnumber" : "175213",
+		"selled" : "88 袋"
+	},
+	{
+		"shopimg" : "img/shop_3.jpg",
+		"shopname" : "新西兰原装进口 巅峰ZiwiPeak 鹿肉配方全犬粮 1kg",
+		"ageprice" : "￥403.20",
+		"nowprice" : "336.00",
+		"idnumber" : "133985",
+		"selled" : "861 袋"
+	},
+	{
+		"shopimg" : "img/shop_4.jpg",
+		"shopname" : "克劳德医生 小型成犬天然粮 鲜肉配方 2kg",
+		"ageprice" : "￥273.60",
+		"nowprice" : "228.00",
+		"idnumber" : "175105",
+		"selled" : "73 袋"
+	}
+]

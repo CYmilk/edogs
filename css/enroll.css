@@ -1,0 +1,216 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,i,b{
+	margin: 0;
+	padding: 0;
+	font: 12px 'Microsoft Yahei',Tahoma,Simsun;
+}
+body{
+	min-width: 1200px;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+ul,ul li{
+	list-style: none;
+}
+img{
+	border: none;
+	display: block;
+}
+#wrap-header{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+#header{
+	width: 1100px;
+	padding: 30px 0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#header .logo-pet{
+	float: left;
+	overflow: hidden;
+}
+#header .Logonfr{
+	margin: 13px 5px 0 0;
+	float: right;
+}
+#header .Logonfr span{
+	color: #666;
+	font-size: 14px;
+}
+#header .Logonfr a{
+	color: #427fd2;
+	font-size: 16px;
+}
+
+#wrap-enroll{
+	border-bottom: 1px solid #ddd;
+	background: #fff;
+	overflow: hidden;
+}
+#enroll{
+	overflow: hidden;
+	width: 1100px;
+	padding-top: 55px;
+	margin: 0 auto;
+}
+.Registertext{
+	width: 516px;
+	margin-left: 228px;
+}
+.Registertext .phone-number{
+	position: relative;
+	margin-bottom: 10px;
+}
+.Registertext div.adiv span.span-name{
+	width: 96px;
+	text-align: right;
+	display: inline-block;
+	font-size: 16px;
+}
+.Registertext div.adiv input{
+	/*border: #ff6f4a solid 1px;
+  	color: #ff6f4a;*/
+  	border: #ddd solid 1px;
+	height: 52px;
+  	border-radius: 5px;
+  	width: 413px;
+  	color: #999;
+  	text-indent: 16px;
+  	font-size: 14px;
+}
+.Registertext div.adiv .Registerok{
+	position: absolute;
+	right: -30px;
+	top: 15px;
+}
+.Registertext div.adiv .Registerok img{
+	vertical-align: middle;
+}
+.Registertext div.adiv .Registererror{
+	width: 150px;
+  	display: block;
+  	font-size: 14px;
+  	left: 520px;
+  	top: 0;
+  	padding: 0 10px;
+  	height: 54px;
+  	line-height: 54px;
+  	background: #fff3d9;
+  	color: #ff6f4a;
+  	position: absolute;
+}
+.Registertext div.adiv .Registererror span.span-text{
+	font-size: 14px;
+	color: #ff6f4a;
+}
+#Txtidcode{
+	width: 203px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+.Registeryanzheng{
+	width: 200px;
+  	border: #ddd solid 1px;
+	border-radius: 5px;
+ 	height: 52px;
+  	line-height: 52px;
+  	vertical-align: middle;
+  	display: inline-block;
+  	position: relative;
+  	overflow: hidden;
+}
+/*.Registeryanzheng .codevar{
+  	cursor: pointer;
+  	vertical-align: middle;
+}*/
+#enroll .Registeryanzheng a.changeyanzheng{
+	position: absolute;
+	right: 9px;
+	width: 88px;
+  	border-radius: 0 10px 10px 0;
+  	border-left: #ddd solid 1px;
+  	text-align: center;
+  	color: #999;
+  	font-size: 14px;
+  	height: 52px;
+}
+#enroll .Registeryanzheng a.changeyanzheng img{
+	vertical-align: middle;
+	display: inline;
+}
+#msgcode{
+	width: 253px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+#phonecodebtnregister{
+	border-radius: 5px;
+  	height: 52px;
+	line-height: 52px;
+  	vertical-align: middle;
+  	width: 149px;
+  	border: #33cb98 solid 1px;
+  	display: inline-block;
+  	color: #999;
+  	text-align: center;
+}
+.Pwdqiangdu{
+	padding-left: 100px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.Pwdqiangdu input{
+	vertical-align: middle;
+}
+.Pwdqiangdu .Xieyi{
+	color: #333;
+  	background: none;
+  	vertical-align: middle;
+  	margin-right: 2px;
+  	font-size: 14px;
+  	display: inline-block;
+}
+.Pwdqiangdu .Xieyi a{
+	color: #427fd2;
+}
+#submit{
+	border-radius: 5px;
+  	background: #ededed;
+  	width: 413px;
+	height: 52px;
+  	line-height: 52px;
+  	margin: 15px 0 50px 100px;
+  	cursor: pointer;
+  	display: inline-block;
+  	color: #fff;
+  	text-align: center;
+  	font-size: 20px;
+}
+
+
+#wrap-footer{
+	width: 100%;
+	overflow: hidden;
+}
+#footer{
+	width: 1100px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	padding: 70px 0;
+}
+#footer a{
+	color: #999;
+	text-align: center;
+}
+#footer a:hover{
+	color: blue;
+}
+#footer p{
+	margin-top: 5px;
+	text-align: center;
+	color: #999;
+}

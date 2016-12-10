@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/content.css" />
+		<link rel="stylesheet" href="css/window-nav.css" />
+		<link rel="stylesheet" href="css/shopping-car.css" />
+		
+		<script type="text/javascript" src="lib/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="lib/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="js/shopping-car.js" ></script>
+		
+	</head>
+	<body>
+		<div id="wrap-header">
+			<!--将头HTML样式引入-->
+		</div>
+		
+		<div id="wrap-shopping-box">
+			<div id="shopping-box">
+				<div class="cart-top">
+					<div class="cart-logo">
+						<a href="index.html"><img src="img/cart-logo.png" /></a>
+					</div>
+					<div class="page-name">购物车</div>
+					<div class="cart-search">
+						<input type="text" class="search-text" />
+						<input type="button" class="searchbtn" value="搜索" />
+					</div>
+				</div>
+				<div class="select-menu">
+					<div id="cart-menu">
+					    <ul class="cart-menu">
+					        <li id="one1" class="current">购物车<em>2</em></li>
+					        <li id="one2">我的收藏<em>0</em></li>
+					        <li id="one3">我购买过<em>0</em></li>   
+					        <li id="one4">最近浏览<em>1</em></li>
+					    </ul>
+					    <div class="nav-currentt" style="width: 122px; left: 0px; overflow: hidden;">
+					    	<div class="arrow"><i></i></div>
+					    </div>
+					</div>
+					<div class="cart-sentcity">
+						<span class="sendto">送货至：</span>
+						<div class="cart-place-div">
+							<div class="place-div">
+								<div class="place-show">
+									<div class="place-str">广东 广州 天河区</div>
+									<b></b>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="contentbox">
+						<table cellpadding="0" cellspacing="0" class="cart-table" border="0" width="100%">
+							<tbody>
+								<tr class="tr-1">
+									<td class="td-1">
+										<label>
+											<input type="checkbox" checked="checked" />
+										</label>
+										<span class="zhiyou">香港1号仓</span>
+										<b>
+											<img src="img/help.jpg" />
+											<div class="cart-tc">
+												<em></em>
+												<i></i>
+												<p>以下商品由香港1号仓发货，需提供身份证信息，不支持余额支付、货到付款，全国满99包邮。</p>
+											</div>
+										</b>
+										<div class="baoyou">
+											<span>已包邮</span> 订单已包邮
+										</div>
+										<div class="gshui">
+											<div class="gr-play">跨境电商清关</div>
+											<font>
+												关税
+												<strong>￥43.12</strong>
+											</font>
+											<b>
+												<img src="img/help.jpg" />
+											</b>
+											<div class="clear"></div>
+										</div>
+									</td>
+									<div class="clear"></div>
+								</tr>
+								<!--<tr class="cart-order">
+						            <td class="td-2">
+	                                    <input checked="checked" type="checkbox">
+		                            </td>
+						            <td class="td-3">
+						                <div class="por-img">
+						                    <a href="#" target="_blank">
+						                        <img src="img/shop_1.jpg" width="80">
+						                    </a>
+						                </div>
+						                <div class="por-intro">
+						                    <a href="#" target="_blank" class="shopname">美国原装进口天衡宝（原雪山）限定系列 鸭薯配方小型犬粮 4.5磅/2.04kg 4.5磅</a>
+                                            <div class="shopgshui">
+						                        <font>关税：￥0.00  
+						                        	<span class="through" style="padding-left: 5px;">￥15.01</span>
+                                                    <i></i>
+						                        </font>
+						                    </div>
+						                </div>
+						                <div class="clear"></div>
+						            </td>
+						            <td class="td-4">
+						            	<div class="buynum-wrap">
+						            		<span class="lessl">-</span>
+						            		<input type="text" value="1" id="num" class="text" />
+						            		<span class="addl">+</span>
+						            	</div>
+						            	<p class="havegood">有货</p>
+						            </td>
+						            <td class="td-5">￥165.00</td>
+						            <td class="td-6">
+						            	<a href="#" class="shoucang">[收藏]</a>
+						            	<a href="#" class="shanchu">[删除]</a>
+						            </td>
+						        </tr>-->
+						        
+						        
+						        <tr>
+						        	<td class="td-7">
+						        		<div class="td7-box">
+						        			<div class="td7-left">
+						        				<label>
+						        					<input type="checkbox" checked="checked" class="all-checked" />全选
+						        				</label>
+						        				<a href="#" class="delete-shop">[ 删除选中商品 ]</a>
+						        				<a href="#">[ 收藏选中商品 ]</a>
+						        			</div>
+						        			<div class="td7-right">
+						        				关税总额：
+						        				<strong class="gsmoney">￥00.00</strong>
+						        				<b><img src="img/help.jpg" /></b>
+						        				总价（不含运费）：
+						        				<strong style="text-decoration: none;" class="money">￥00.00</strong>
+						        				<a href="#" class="gobalance">去结算(<span>1</span>)</a>
+						        			</div>
+						        			<div class="clear"></div>
+						        		</div>
+						        	</td>
+						        </tr>
+						        <tr>
+						        	<td class="td-8">
+						        		<a href="goods.html" class="go-buy">继续购物</a>
+						        	</td>
+						        </tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="wrap-footer">
+			<!--将尾HTML样式引入-->
+		</div>
+
+		<div id='wrap-footEnd'>
+
+		</div>
+		
+		<div id="window_nav"></div>
+	</body>
+</html>
