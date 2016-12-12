@@ -1,0 +1,145 @@
+#window_nav{
+	position: fixed;
+	right: 0;
+	opacity: 1;
+	width: 35px;
+	z-index: 1000;
+	height: 569px;
+}
+#window_nav .rttop{
+	height: 17px;
+	background: url(../img/bar.png) no-repeat 0 -174px;
+}
+#window_nav .rtbot{
+	height: 17px;
+	background: url(../img/bar.png) no-repeat 0 -191px;
+}
+#window_nav .rtcont {
+    background-color: #3F6927;
+}
+#window_nav .rtcont .rtcont-up{
+	height: 330px;
+	padding-top: 10px;
+}
+#window_nav .rtcont li{
+	position: relative;
+}
+#window_nav .rtcont .rtcont-up .bagLi .bagBox{
+    background: #2b251d;
+    width: 292px;
+    position: absolute;
+    right: 35px;
+    top: 0;
+    padding-bottom: 6px;
+}
+#window_nav .rtcont  li .rtico{
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 0 0 15px 0;
+}
+#window_nav .rtcont .rtcont-up li .rt-my{
+	background: url(../img/bar.png) no-repeat 0 -235px;
+	margin-bottom: 40px;
+}
+#window_nav .rtcont .rtcont-up .li-2 .carBox{
+	background: #fff;
+    border: 1px solid #62a727;
+    padding: 15px;
+    box-shadow: 0 3px 0 1px #ddd;
+    position: absolute;
+    width: 510px;
+    z-index: 1000;
+    right: 35px;
+    top: 0;
+}
+#window_nav .rtcont .rtcont-up .li-2 .rt-cart{
+	background: url(../img/bar.png) no-repeat 0 -270px;
+}
+.rtcont .rtcont-up .li-2 .carBox .mycar{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.rtcont .rtcont-up .li-2 .carBox .smbtn{
+    height: 32px;
+    line-height: 32px;
+    background:url(../img/btnbg.png) no-repeat right -212px;
+    padding-right: 20px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.rtcont .rtcont-up .li-2 .carBox .smbtn span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    background:url(../img/btnbg.png) no-repeat left -212px;
+    padding-left: 20px;
+    float: left;
+    line-height: 32px;
+    cursor: pointer;
+}
+#window_nav .rtcont .rtcont-up .li-3 .rt-order{
+	background: url(../img/bar.png) no-repeat 0 -305px;
+}
+#window_nav .rtcont .rtcont-up .li-4 .rt-ask{
+	background: url(../img/bar.png) no-repeat 0 -340px;
+}
+#window_nav .rtcont .rtcont-up .li-5 .rt-view{
+	background: url(../img/bar.png) no-repeat 0 -375px;
+}
+#window_nav .rtcont .rtcont-up .li-6 .rt-consulted{
+	background: url(../img/bar.png) no-repeat 1px -617px;
+}
+#window_nav .rtcont li label{
+	position: absolute;
+	top: 0;
+	right: 53px;
+	background: #FB6003;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	opacity: 1;
+}
+#window_nav .rtcont li label em{
+	position: absolute;
+	top: 0;
+	right: -8px;
+	font-style: normal;
+	font-size: 28px;
+	color: #FB6003;
+}
+#window_nav .rtcont .rtcont-dn{
+	padding-bottom: 10px;
+}
+#window_nav .rtcont .rtcont-dn .li-7 .rt-app{
+	background: url(../img/bar.png) no-repeat 0 -410px;
+}
+#window_nav .rtcont .rtcont-dn .li-8 .rt-weibo{
+	background: url(../img/bar.png) no-repeat 0 -480px;
+}
+#window_nav .rtcont .rtcont-dn .li-9 .rt-weixin{
+	background: url(../img/bar.png) no-repeat 0 -445px;
+}
+#window_nav .rtcont .rtcont-dn .li-10 .rt-top{
+	background: url(../img/bar.png) no-repeat 1px -540px;
+}
+#window_nav .rtcont .rtcont-dn .li-9 div{
+	border: 1px solid #e6e6e6;
+	width: 246px;
+	height: 402px;
+	position: absolute;
+	bottom: 0;
+	right: 35px;
+}
+#window_nav .rtcont .rtcont-dn .li-9 div a{
+	width: 246px;
+	height: 402px;
+	display: inline-block;
+	background: url(../img/weibo.jpg) no-repeat left top;
+}

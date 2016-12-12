@@ -1,0 +1,114 @@
+#wrap_head_search{
+	overflow: hidden;
+	width: 100%;
+	background: #FFFFFF;
+}
+#head_search{
+	height: 110px;
+	width: 1200px;
+	margin: 0 auto;
+}
+#logo{
+	width: 228px;
+	height: 100%;
+	float: left;
+}
+#logo a{
+	background: url(../img/logo.png) no-repeat left top;
+	display: block;
+	width: 144px;
+	height: 62px;
+	margin-top: 26px;
+}
+#search{
+	width: 498px;
+	height: 100%;
+	float: left;
+	margin-left:25px ;
+	
+}
+/*搜索框*/
+#sch_form{
+	margin-top: 33px;
+	width: 498px;
+	height: 34px;
+}
+#sch_form .search_name{
+	width: 382px;
+	height: 30px;
+	line-height: 30px;
+	border: 2px solid #459D36;
+	background: none;
+	padding: 0 5px 0 15px;
+	font-size: 14px;
+	float: left;
+	color: #999;
+}
+#sch_form .submit{
+	width: 73px;
+	height: 34px;
+	border: none;
+	cursor: pointer;
+	background-color: #459D36;
+	color: #fff;
+	font-size: 14px;
+}
+/*关键词*/
+#keywords{
+	width: 498px;
+	height: 17px;
+	overflow: hidden;
+	margin: 10px 0;
+}
+#keywords label{
+	float: left;
+	display: inline;
+	color: #999999;
+}
+#keywords .cred{
+	color: #FF0000;
+}
+#keywords a{
+	float: left;
+	display: inline;
+	color: #999;
+}
+#keywords span{
+	color: #999;
+	float: left;
+	display: inline;
+	margin: 0 10px;
+}
+#keywords a:hover{
+	color: black;
+}
+#keywords .cred:hover{
+	color: #FF0000;
+}
+/*电话联系方式*/
+#tell_number{
+	width: 220px;
+	height: 22px;
+	padding-top: 25px;
+	margin: 33px 0 0 40px;
+	background: url(../img/bg.png) no-repeat 0 -521px;
+	float: left;
+}
+#shopping_car{
+	width: 130px;
+	height: 39px;
+	background: url(../img/shopping-cart.gif) no-repeat;
+	float: right;
+	margin-top: 34px;
+	text-align: center;
+	text-indent: 32px;
+}
+#shopping_car a span{
+	color: #f00;
+}
+#shopping_car a{
+	line-height: 39px;
+}
+#shopping_car a:hover{
+	color: blue;
+}
